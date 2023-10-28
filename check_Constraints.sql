@@ -22,6 +22,13 @@ insert into city (id,city,age) values (1,"delhi",90),(2,"delhi",87);
 select * from city;
 
 
+--    city table
+-- id   city age
+-- 1	delhi	90
+-- 2	delhi	87
+		
+
+
 -- if we have to check for a one clumns only then
 create table stu_detail(
 id int primary key,
@@ -35,6 +42,13 @@ insert into stu_detail (id,age) values (3,18);
 -- it will showing no errror  because check is  passed
 insert into stu_detail (id,age) values (3,27);
 
+select * from stu_detail;
+
+
+-- stu_details table
+-- id age
+-- 3	21
+	
 
 
 

@@ -21,6 +21,8 @@ create table employe(
 insert into employe (id,phone) values(1,987870),(2,98979);
 -- it runs without showing any error
 
+-- it means if a field having constraints not null should must be filled
+
 select * from employe;
 
 
