@@ -32,5 +32,5 @@ select * from student;
 -- it can give error when the database is not created
 -- drop database ayu; 
 
---it can delete the database if exist otherwise gives a warning
---drop database if exists ayu; 
+-- it can delete the database if exist otherwise gives a warning
+-- drop database if exists ayu; 
