@@ -26,7 +26,7 @@ from emp;
 
 
 
---  1. count function
+--  1. count() function
 
 -- counting of total students
 select count(name)
@@ -56,7 +56,7 @@ from emp;
 
 
 
--- 2. max function
+-- 2. max() function
 select max(salary)
 from emp;
 
@@ -80,7 +80,7 @@ from emp;
 
 
 
--- 3. min function
+-- 3. min() function
 
 -- min salary
 select min(salary)
@@ -113,7 +113,7 @@ where city="pune"
 
 
 
--- 4. sum function
+-- 4. sum() function
 
 -- sum of all salary
 select sum(salary)
@@ -153,7 +153,7 @@ where city="chennai"
 
 
 
---    5. avg function
+--    5. avg() function
 
 -- avg salary of employees
 select avg(salary)
